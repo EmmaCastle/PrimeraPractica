@@ -18,13 +18,13 @@
         android:textSize="@dimen/abc_text_size_display_1_material"
         android:id="@+id/textView2" />
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/descripcion_app"
-        android:id="@+id/textView"
-        android:layout_marginTop="44dp"
-        android:textSize="@dimen/abc_text_size_headline_material"
+        android:text="@string/boton_app"
+        android:id="@+id/button"
+        android:layout_marginTop="62dp"
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true" />
+
 </RelativeLayout>

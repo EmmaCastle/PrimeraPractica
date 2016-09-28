@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">FirstPractice</string>
-    <string name="titulo_app">My First App</string>
+    <string name="titulo_app">Welcome</string>
     <string name="descripcion_app">hi this is my application</string>
+    <string name="boton_app">Enter</string>
 </resources>
