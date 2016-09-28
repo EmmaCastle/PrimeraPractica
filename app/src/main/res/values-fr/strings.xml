@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PremièrePratique</string>
+    <string name="titulo_app">Mon Premier App</string>
+    <string name="descripcion_app">Bonjour ceci est ma demande</string>
+</resources>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PrimeraPractica</string>
+    <string name="titulo_app">Mi Primera App</string>
+    <string name="descripcion_app">Hola esta es mi aplicacion</string>
 </resources>
