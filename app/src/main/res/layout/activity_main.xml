@@ -7,16 +7,19 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.prueba.proyecto.primerapractica.MainActivity">
+    tools:context="com.prueba.proyecto.primerapractica.MainActivity"
+    android:background="@drawable/android_fondo">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/titulo_app"
+        android:textSize="@dimen/abc_text_size_display_3_material"
+        android:id="@+id/textView2"
+        android:textColor="@color/abc_background_cache_hint_selector_material_light"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textSize="@dimen/abc_text_size_display_1_material"
-        android:id="@+id/textView2" />
+        android:layout_marginTop="42dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -25,6 +28,10 @@
         android:id="@+id/button"
         android:layout_marginTop="62dp"
         android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:textColor="@color/abc_background_cache_hint_selector_material_light"
+        android:drawableTint="@color/abc_background_cache_hint_selector_material_light"
+        android:ellipsize="start" />
 
 </RelativeLayout>
